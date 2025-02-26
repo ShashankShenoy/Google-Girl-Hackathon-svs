@@ -2,66 +2,53 @@ import json
 import subprocess
 import os
 import logging
-import argparse
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
-class YosysExtractor:
+class VerilatorExtractor:
     def __init__(self, output_dir=None):
         # Set correct output directory
         self.output_dir = os.path.expanduser("~/Google-Girl-Hackathon/Data/Features") if output_dir is None else output_dir
         os.makedirs(self.output_dir, exist_ok=True)
         
-    def extract_features_from_directory(self, rtl_dir, top_module):
-        """Extract features from all Verilog files in a directory"""
-        logger.info(f"Starting extraction for Verilog files in {rtl_dir}")
-        
-        # List all files in the directory
-        rtl_files = [f for f in os.listdir(rtl_dir) if f.endswith('.v')]
-        
-        results = []
-        
-        for rtl_file in rtl_files:
-            rtl_file_path = os.path.join(rtl_dir, rtl_file)
-            logger.info(f"Extracting features from {rtl_file_path}")
-            features = self.extract_features(rtl_file_path, top_module)
-            results.append(features)
-        
-        logger.info("Feature extraction completed.")
-        return results
-    
     def extract_features(self, rtl_file, top_module):
-        """Extract features from RTL using Yosys"""
+        """Extract features from RTL using Verilator"""
         logger.info(f"Extracting features from {rtl_file}")
         
         # Generate unique output file name
         base_name = os.path.basename(rtl_file).split('.')[0]
         json_output = os.path.join(self.output_dir, f"{base_name}_analysis.json")
         
-        # Create Yosys script
-        yosys_cmd = [
-            "yosys", 
-            "-p", 
-            f"read_verilog {rtl_file}; "
-            f"proc; flatten; "
-            f"opt; "
-            f"stat -top {top_module}; "
-            f"write_json {json_output}"
+        # Run Verilator command to generate a JSON output for the Verilog file
+        verilator_cmd = [
+            "verilator", 
+            "--json",  # Enable JSON output
+            "--top-module", top_module,  # Specify the top module
+            rtl_file
         ]
         
         try:
-            # Run Yosys
-            subprocess.run(yosys_cmd, check=True, stderr=subprocess.PIPE)
+            logger.debug(f"Running Verilator command: {' '.join(verilator_cmd)}")
+            # Run Verilator
+            subprocess.run(verilator_cmd, check=True, stderr=subprocess.PIPE)
             
-            # Parse the JSON output
+            # Check if JSON file exists and load it
+            if not os.path.exists(json_output):
+                logger.error(f"Verilator did not produce JSON output for {rtl_file}")
+                return {}
+            
+            logger.debug(f"Verilator output found at {json_output}")
             with open(json_output) as f:
                 design_data = json.load(f)
             
-            # Extract features
+            # Log the raw JSON content for debugging
+            logger.debug(f"Raw JSON data from Verilator for {rtl_file}: {json.dumps(design_data, indent=2)}")
+            
+            # Extract features from the Verilator JSON output
             features = self._process_json(design_data, top_module)
             
-            # Save features
+            # Save features to a new JSON file
             features_file = os.path.join(self.output_dir, f"{base_name}_features.json")
             with open(features_file, 'w') as f:
                 json.dump(features, f, indent=2)
@@ -69,14 +56,14 @@ class YosysExtractor:
             return features
             
         except subprocess.CalledProcessError as e:
-            logger.error(f"Yosys error: {e.stderr.decode()}")
+            logger.error(f"Verilator error: {e.stderr.decode()}")
             return {}
         except Exception as e:
             logger.error(f"Error extracting features: {str(e)}")
             return {}
     
     def _process_json(self, design_data, top_module):
-        """Process Yosys JSON output to extract features"""
+        """Process Verilator JSON output to extract features"""
         features = {}
         
         try:
@@ -137,18 +124,3 @@ class YosysExtractor:
             logger.error(f"Key error processing JSON: {str(e)}")
             return {}
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="Extract features from Verilog RTL files using Yosys.")
-    parser.add_argument('--verilog_files', type=str, help="Directory containing Verilog files.", required=True)
-    parser.add_argument('--output_dir', type=str, help="Directory to store extracted features.", required=False)
-    parser.add_argument('--top_module', type=str, help="Top module name for Yosys.", required=True)
-    
-    args = parser.parse_args()
-    
-    extractor = YosysExtractor(output_dir=args.output_dir)
-    results = extractor.extract_features_from_directory(args.verilog_files, args.top_module)
-    
-    # Optional: Save the aggregated results
-    aggregated_results_file = os.path.join(args.output_dir, "aggregated_results.json")
-    with open(aggregated_results_file, 'w') as f:
-        json.dump(results, f, indent=2)
