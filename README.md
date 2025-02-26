@@ -87,8 +87,6 @@ Google-Girl-Hackathon/
 ├── requirements.txt
 ├── setup.py
 └── README.md
-
-
-
+```
 
 
