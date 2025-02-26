@@ -136,7 +136,7 @@ python3 src/Model/train.py
 #### 4. Predictions 
 To predict the combinational depth of a signal, use:
 ```bash
-python src/Predict/predict.py --signal <signal_name>
+python3 src/Predict/predict.py --signal <signal_name>
 ```
 
 #### 5. Evaluation 
