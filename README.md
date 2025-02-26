@@ -50,7 +50,7 @@ pip install -r requirements.txt
 ```
 The [requirements](https://github.com/smritivs/Google-Girl-Hackathon/blob/main/requirements.txt) file includes a list of the Python packages and their versions required to run the project. 
 
-###### Project Structure
+# Project Structure
 
 The project is organized as follows:
 ```plaintext
