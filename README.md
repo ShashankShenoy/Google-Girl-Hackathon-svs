@@ -113,4 +113,22 @@ Google-Girl-Hackathon/
 └── README.md
 ```
 
+## Running the Project 
 
+#### 1. Feature Extraction
+To extract features from RTL files, use:
+```bash
+./Scripts/extract_all_features.sh
+```
+
+#### 2. Run Synthesis 
+To run synthesis and obtain timing reports, use:
+```bash 
+./Scripts/run_synthesis.sh
+```
+
+#### 3. Train Model 
+To train the model, use:
+```bash 
+python3 src/Model/train.py
+```
