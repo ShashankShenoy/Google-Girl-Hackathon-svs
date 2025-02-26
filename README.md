@@ -23,6 +23,17 @@ Ensure that you have **Python 3.x** installed on your system. You can verify thi
 ```bash
 python3 --version
 ```
+#### Yosys Installation 
+
+On Ubuntu/Desbian:
+```bash
+sudo apt-get install yosys
+```
+On macOS (Homebrew):
+```bash
+brew install yosys
+```
+
 ### Setting Up a Virtual Environment (Optional, but Recommended)
 
 It's a good practice to use a virtual environment to isolate project dependencies. To set up a virtual environment, follow these steps:
