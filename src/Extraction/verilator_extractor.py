@@ -2,6 +2,7 @@ import json
 import subprocess
 import os
 import logging
+import argparse
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -12,6 +13,24 @@ class YosysExtractor:
         self.output_dir = os.path.expanduser("~/Google-Girl-Hackathon/Data/Features") if output_dir is None else output_dir
         os.makedirs(self.output_dir, exist_ok=True)
         
+    def extract_features_from_directory(self, rtl_dir, top_module):
+        """Extract features from all Verilog files in a directory"""
+        logger.info(f"Starting extraction for Verilog files in {rtl_dir}")
+        
+        # List all files in the directory
+        rtl_files = [f for f in os.listdir(rtl_dir) if f.endswith('.v')]
+        
+        results = []
+        
+        for rtl_file in rtl_files:
+            rtl_file_path = os.path.join(rtl_dir, rtl_file)
+            logger.info(f"Extracting features from {rtl_file_path}")
+            features = self.extract_features(rtl_file_path, top_module)
+            results.append(features)
+        
+        logger.info("Feature extraction completed.")
+        return results
+    
     def extract_features(self, rtl_file, top_module):
         """Extract features from RTL using Yosys"""
         logger.info(f"Extracting features from {rtl_file}")
@@ -118,3 +137,18 @@ class YosysExtractor:
             logger.error(f"Key error processing JSON: {str(e)}")
             return {}
 
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description="Extract features from Verilog RTL files using Yosys.")
+    parser.add_argument('--verilog_files', type=str, help="Directory containing Verilog files.", required=True)
+    parser.add_argument('--output_dir', type=str, help="Directory to store extracted features.", required=False)
+    parser.add_argument('--top_module', type=str, help="Top module name for Yosys.", required=True)
+    
+    args = parser.parse_args()
+    
+    extractor = YosysExtractor(output_dir=args.output_dir)
+    results = extractor.extract_features_from_directory(args.verilog_files, args.top_module)
+    
+    # Optional: Save the aggregated results
+    aggregated_results_file = os.path.join(args.output_dir, "aggregated_results.json")
+    with open(aggregated_results_file, 'w') as f:
+        json.dump(results, f, indent=2)
