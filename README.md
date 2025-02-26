@@ -33,6 +33,7 @@ It's a good practice to use a virtual environment to isolate project dependencie
 python3 -m venv venv
 ```
 2. Activate the virtual environment:
+   
 On Linux/macOS:
 ```bash
 source venv/bin/activate
