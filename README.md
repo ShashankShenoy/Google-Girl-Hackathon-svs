@@ -6,7 +6,9 @@ This project aims to develop an AI-based algorithm that predicts the combination
 
 ## Features
 
-- **AI-based Algorithm**: Leverages XGBoost to predict logic depth from RTL code.
+- **Custom Dataset and Feature Extraction**: Developed a custom dataset by sourcing Verilog code from multiple websites and creating original RTL code. Used Yosys for RTL synthesis and Verilator for C++ model conversion to extract essential features in JSON format, enabling efficient analysis of combinational logic depth.
+
+
 - **Early-stage Estimations**: Predicts timing violations before synthesis, allowing adjustments.
 - **Custom Dataset**: Uses a collection of Verilog codes from various sources and custom-written RTL for training.
 - **Feature Extraction**: Extracts features using Yosys and Verilator, stored as JSON files.
