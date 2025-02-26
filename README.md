@@ -33,7 +33,7 @@ On macOS (Homebrew):
 ```bash
 brew install yosys
 ```
-For Windows, refer the (Yosys) [https://yosyshq.net/yosys/download.html] page
+For Windows, For Windows, refer to the [Yosys download page](https://yosyshq.net/yosys/download.html).
 
 ### Setting Up a Virtual Environment (Optional, but Recommended)
 
