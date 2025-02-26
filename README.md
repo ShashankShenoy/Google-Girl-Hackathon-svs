@@ -13,4 +13,4 @@ Provide a brief summary of your project, its purpose, and its significance.
 ## Project Structure
 
 The project is organized as follows:
-**`[Data](https://github.com/smritivs/Google-Girl-Hackathon/tree/main/Data)`:**
+[Data](https://github.com/smritivs/Google-Girl-Hackathon/tree/main/Data)
