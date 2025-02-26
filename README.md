@@ -22,3 +22,25 @@ Ensure that you have **Python 3.x** installed on your system. You can verify thi
 
 ```bash
 python3 --version
+```
+#### Setting Up a Virtual Environment (Optional, but Recommended)
+
+It's a good practice to use a virtual environment to isolate project dependencies. To set up a virtual environment, follow these steps:
+
+1. Create a new virtual environment:
+
+```bash
+python3 -m venv venv
+```
+2. Activate the virtual environment:
+On Linux/macOS:
+```bash
+source venv/bin/activate
+```
+On Windows:
+```bash
+venv\Scripts\activate
+```
+
+
+
