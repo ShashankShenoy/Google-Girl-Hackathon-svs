@@ -53,7 +53,7 @@ The [requirements](https://github.com/smritivs/Google-Girl-Hackathon/blob/main/r
 ###### Project Structure
 
 The project is organized as follows:
-
+```plaintext
 Google-Girl-Hackathon/
 ├── Data/
 │   ├── RTL_Sources/           # Your RTL Verilog files
