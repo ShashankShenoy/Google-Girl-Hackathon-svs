@@ -23,7 +23,7 @@ Ensure that you have **Python 3.x** installed on your system. You can verify thi
 ```bash
 python3 --version
 ```
-#### Setting Up a Virtual Environment (Optional, but Recommended)
+### Setting Up a Virtual Environment (Optional, but Recommended)
 
 It's a good practice to use a virtual environment to isolate project dependencies. To set up a virtual environment, follow these steps:
 
@@ -42,7 +42,7 @@ On Windows:
 ```bash
 venv\Scripts\activate
 ```
-##### Installing Dependencies
+### Installing Dependencies
 
 Once your virtual environment is activated, install the necessary Python dependencies by running:
 ```bash
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 ```
 The [requirements](https://github.com/smritivs/Google-Girl-Hackathon/blob/main/requirements.txt) file includes a list of the Python packages and their versions required to run the project. 
 
-# Project Structure
+## Project Structure
 
 The project is organized as follows:
 ```plaintext
