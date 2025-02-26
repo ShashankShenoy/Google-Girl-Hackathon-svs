@@ -35,6 +35,18 @@ brew install yosys
 ```
 For Windows, For Windows, refer to the [Yosys download page](https://yosyshq.net/yosys/download.html).
 
+#### Verilator Installation 
+
+On Ubuntu/Desbian:
+```bash 
+sudo apt install verilator
+```
+
+On macOS (Homebrew):
+```bash
+brew install verilator
+```
+
 ### Setting Up a Virtual Environment (Optional, but Recommended)
 
 It's a good practice to use a virtual environment to isolate project dependencies. To set up a virtual environment, follow these steps:
