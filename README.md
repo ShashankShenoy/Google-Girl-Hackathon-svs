@@ -10,6 +10,18 @@ This project aims to develop an AI-based algorithm that predicts the combination
 - **Feature 2**: Description of feature 2.
 - **Feature 3**: Description of feature 3.
 
+## Installation
+
+Follow the steps below to set up and install the necessary dependencies for this project:
+
+### Prerequisites
+
+Ensure that you have **Python 3.x** installed on your system. You can verify this by running:
+
+```bash
+python3 --version
+
+
 ## Project Structure
 
 The project is organized as follows:
