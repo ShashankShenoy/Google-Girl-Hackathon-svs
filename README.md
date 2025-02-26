@@ -132,3 +132,15 @@ To train the model, use:
 ```bash 
 python3 src/Model/train.py
 ```
+
+#### 4. Predictions 
+To predict the combinational depth of a signal, use:
+```bash
+python src/Predict/predict.py --signal <signal_name>
+```
+
+#### 5. Evaluation 
+Evaluation is done by comparing the predicted combinational depth with the actual values obtained from the synthesis report. This can be done by running:
+```bash 
+./Scripts/evaluate_model.sh
+```
