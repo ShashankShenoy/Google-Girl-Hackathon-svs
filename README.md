@@ -13,4 +13,20 @@ Provide a brief summary of your project, its purpose, and its significance.
 ## Project Structure
 
 The project is organized as follows:
-[Data](https://github.com/smritivs/Google-Girl-Hackathon/tree/main/Data)
+Project/
+├── [Data/] (https://github.com/smritivs/Google-Girl-Hackathon/tree/main/Data)
+│   ├── [RTL_Sources/] (https://github.com/smritivs/Google-Girl-Hackathon/tree/main/Data/RTL_Sources) 
+│   └── Features/
+├── src/
+│   ├── Extraction/
+│   ├── Model/
+│   └── Predict/
+├── Models/
+│   └── xgboost_model.json
+├── Notebooks/
+├── Scripts/
+├── Results/
+├── requirements.txt
+├── setup.py
+└── README.md
+
