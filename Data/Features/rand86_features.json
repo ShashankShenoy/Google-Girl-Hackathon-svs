@@ -1,0 +1,130 @@
+{
+  "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/rand86.v:9$2": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/rand86.v:9$5": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/rand86.v:9$3": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procdff$7": {
+    "cell_type": "$adff",
+    "signal_width": 1,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/rand86.v:9$4": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/rand86.v:9$6": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$0\\Q[0:0]": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/rand86.v:9$2_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/rand86.v:9$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/rand86.v:9$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/rand86.v:9$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "A": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "B": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "Q": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "clk": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "rst": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  }
+}

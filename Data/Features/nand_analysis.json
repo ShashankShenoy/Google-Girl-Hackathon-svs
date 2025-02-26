@@ -1,0 +1,101 @@
+{
+  "creator": "Yosys 0.9 (git sha1 1979e0b)",
+  "modules": {
+    "NAND_gate": {
+      "attributes": {
+        "cells_not_processed": 1,
+        "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/nand.v:1"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/nand.v:6$1": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/nand.v:6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 3 ],
+            "Y": [ 5 ]
+          }
+        },
+        "$not$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/nand.v:6$2": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/nand.v:6"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "Y": [ 4 ]
+          }
+        }
+      },
+      "netnames": {
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/nand.v:6$1_Y": {
+          "hide_name": 1,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/nand.v:6"
+          }
+        },
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/nand.v:2"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/nand.v:3"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/nand.v:4"
+          }
+        }
+      }
+    }
+  }
+}

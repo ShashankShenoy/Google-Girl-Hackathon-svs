@@ -1,0 +1,114 @@
+{
+  "$add$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/up_down_16.v:13$2": {
+    "cell_type": "$add",
+    "signal_width": 32,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 1
+  },
+  "$procdff$9": {
+    "cell_type": "$adff",
+    "signal_width": 16,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$5": {
+    "cell_type": "$mux",
+    "signal_width": 16,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$7": {
+    "cell_type": "$mux",
+    "signal_width": 16,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$sub$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/up_down_16.v:15$3": {
+    "cell_type": "$sub",
+    "signal_width": 32,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 1
+  },
+  "$0\\count[15:0]": {
+    "net_size": 16,
+    "signal_width": 16,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$add$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/up_down_16.v:13$2_Y": {
+    "net_size": 32,
+    "signal_width": 32,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$5_Y": {
+    "net_size": 16,
+    "signal_width": 16,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$sub$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/up_down_16.v:15$3_Y": {
+    "net_size": 32,
+    "signal_width": 32,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "clk": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "count": {
+    "net_size": 16,
+    "signal_width": 16,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "enable": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "reset": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "up_down": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  }
+}

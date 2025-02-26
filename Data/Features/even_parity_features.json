@@ -1,0 +1,26 @@
+{
+  "$reduce_xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/even_parity.v:7$2": {
+    "cell_type": "$reduce_xor",
+    "signal_width": 8,
+    "fan_in_count": 2,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "A": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "parity": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  }
+}

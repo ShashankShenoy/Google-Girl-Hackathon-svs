@@ -1,0 +1,498 @@
+{
+  "$add$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/door_lock_fsm.v:32$3": {
+    "cell_type": "$add",
+    "signal_width": 32,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 1
+  },
+  "$eq$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/door_lock_fsm.v:26$2": {
+    "cell_type": "$eq",
+    "signal_width": 4,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$eq$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/door_lock_fsm.v:33$4": {
+    "cell_type": "$eq",
+    "signal_width": 2,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procdff$57": {
+    "cell_type": "$adff",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procdff$58": {
+    "cell_type": "$adff",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procdff$59": {
+    "cell_type": "$adff",
+    "signal_width": 1,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procdff$60": {
+    "cell_type": "$adff",
+    "signal_width": 1,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$10": {
+    "cell_type": "$mux",
+    "signal_width": 1,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$13": {
+    "cell_type": "$mux",
+    "signal_width": 1,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$15": {
+    "cell_type": "$mux",
+    "signal_width": 1,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$20": {
+    "cell_type": "$mux",
+    "signal_width": 1,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$22": {
+    "cell_type": "$pmux",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$25": {
+    "cell_type": "$mux",
+    "signal_width": 1,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$27": {
+    "cell_type": "$mux",
+    "signal_width": 1,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$31": {
+    "cell_type": "$mux",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$33": {
+    "cell_type": "$pmux",
+    "signal_width": 4,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$36": {
+    "cell_type": "$mux",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$38": {
+    "cell_type": "$mux",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$42": {
+    "cell_type": "$mux",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$44": {
+    "cell_type": "$pmux",
+    "signal_width": 6,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$45_CMP0": {
+    "cell_type": "$eq",
+    "signal_width": 2,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$46": {
+    "cell_type": "$mux",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$48_CMP0": {
+    "cell_type": "$eq",
+    "signal_width": 2,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$49": {
+    "cell_type": "$mux",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$52": {
+    "cell_type": "$mux",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$54": {
+    "cell_type": "$mux",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$56_CMP0": {
+    "cell_type": "$logic_not",
+    "signal_width": 2,
+    "fan_in_count": 2,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$6": {
+    "cell_type": "$mux",
+    "signal_width": 1,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$8": {
+    "cell_type": "$pmux",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$0\\error[0:0]": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$0\\failed_attempts[1:0]": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$0\\state[1:0]": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$0\\unlocked[0:0]": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$add$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/door_lock_fsm.v:32$3_Y": {
+    "net_size": 32,
+    "signal_width": 32,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$eq$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/door_lock_fsm.v:26$2_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$eq$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/door_lock_fsm.v:33$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$10_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$13_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$15_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$17_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$20_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$23_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$25_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$27_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$31_Y": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$34_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$36_Y": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$38_Y": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$42_Y": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$46_Y": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$49_Y": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$52_Y": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$54_Y": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "clk": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "error": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "failed_attempts": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "password": {
+    "net_size": 4,
+    "signal_width": 4,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "reset": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "state": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "try_unlock": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "unlocked": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  }
+}

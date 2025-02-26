@@ -1,0 +1,186 @@
+{
+  "$memrd$\\mem$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_4x4.v:14$6": {
+    "cell_type": "$memrd",
+    "signal_width": 4,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$memwr$\\mem$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_4x4.v:12$7": {
+    "cell_type": "$memwr",
+    "signal_width": 4,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procdff$20": {
+    "cell_type": "$dff",
+    "signal_width": 2,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procdff$21": {
+    "cell_type": "$dff",
+    "signal_width": 4,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procdff$22": {
+    "cell_type": "$dff",
+    "signal_width": 4,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procdff$23": {
+    "cell_type": "$dff",
+    "signal_width": 4,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$12": {
+    "cell_type": "$mux",
+    "signal_width": 4,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$15": {
+    "cell_type": "$mux",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$18": {
+    "cell_type": "$mux",
+    "signal_width": 4,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$9": {
+    "cell_type": "$mux",
+    "signal_width": 1,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$0$memwr$\\mem$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_4x4.v:12$1_ADDR[1:0]$3": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$0$memwr$\\mem$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_4x4.v:12$1_DATA[3:0]$4": {
+    "net_size": 4,
+    "signal_width": 4,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$0$memwr$\\mem$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_4x4.v:12$1_EN[3:0]$5": {
+    "net_size": 4,
+    "signal_width": 4,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$0\\data_out[3:0]": {
+    "net_size": 4,
+    "signal_width": 4,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$memrd$\\mem$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_4x4.v:14$6_DATA": {
+    "net_size": 4,
+    "signal_width": 4,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$memwr$\\mem$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_4x4.v:12$1_ADDR": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$memwr$\\mem$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_4x4.v:12$1_DATA": {
+    "net_size": 4,
+    "signal_width": 4,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$memwr$\\mem$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_4x4.v:12$1_EN": {
+    "net_size": 4,
+    "signal_width": 4,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "addr": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "clk": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "data_in": {
+    "net_size": 4,
+    "signal_width": 4,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "data_out": {
+    "net_size": 4,
+    "signal_width": 4,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "write": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  }
+}

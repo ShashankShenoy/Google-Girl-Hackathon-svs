@@ -1,0 +1,394 @@
+{
+  "$auto$opt_reduce.cc:126:opt_mux$44": {
+    "cell_type": "$reduce_or",
+    "signal_width": 2,
+    "fan_in_count": 2,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$auto$opt_reduce.cc:126:opt_mux$46": {
+    "cell_type": "$reduce_or",
+    "signal_width": 3,
+    "fan_in_count": 2,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$eq$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/traffic_fsm_4.v:19$2": {
+    "cell_type": "$logic_not",
+    "signal_width": 5,
+    "fan_in_count": 2,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$le$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/traffic_fsm_4.v:37$5": {
+    "cell_type": "$le",
+    "signal_width": 32,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$logic_and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/traffic_fsm_4.v:37$6": {
+    "cell_type": "$logic_and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procdff$42": {
+    "cell_type": "$adff",
+    "signal_width": 5,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procdff$43": {
+    "cell_type": "$adff",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$13": {
+    "cell_type": "$pmux",
+    "signal_width": 9,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$22": {
+    "cell_type": "$mux",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$26": {
+    "cell_type": "$pmux",
+    "signal_width": 8,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$27_CMP0": {
+    "cell_type": "$eq",
+    "signal_width": 2,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$28_CMP0": {
+    "cell_type": "$eq",
+    "signal_width": 2,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$29_CMP0": {
+    "cell_type": "$eq",
+    "signal_width": 2,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$30_CMP0": {
+    "cell_type": "$logic_not",
+    "signal_width": 2,
+    "fan_in_count": 2,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$32": {
+    "cell_type": "$mux",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$35": {
+    "cell_type": "$pmux",
+    "signal_width": 20,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$36_CMP0": {
+    "cell_type": "$eq",
+    "signal_width": 2,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$37_CMP0": {
+    "cell_type": "$eq",
+    "signal_width": 2,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$38_CMP0": {
+    "cell_type": "$eq",
+    "signal_width": 2,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$39_CMP0": {
+    "cell_type": "$logic_not",
+    "signal_width": 2,
+    "fan_in_count": 2,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$40": {
+    "cell_type": "$mux",
+    "signal_width": 5,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$8": {
+    "cell_type": "$pmux",
+    "signal_width": 2,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$sub$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/traffic_fsm_4.v:29$3": {
+    "cell_type": "$sub",
+    "signal_width": 32,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 1
+  },
+  "$0\\current_state[1:0]": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$0\\timer[4:0]": {
+    "net_size": 5,
+    "signal_width": 5,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$2\\next_state[1:0]": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$auto$opt_reduce.cc:132:opt_mux$45": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$auto$opt_reduce.cc:132:opt_mux$47": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$eq$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/traffic_fsm_4.v:19$2_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$le$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/traffic_fsm_4.v:37$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$logic_and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/traffic_fsm_4.v:37$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$10_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$11_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$12_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$14_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$35_Y": {
+    "net_size": 5,
+    "signal_width": 5,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$36_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$37_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$38_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$39_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$sub$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/traffic_fsm_4.v:29$3_Y": {
+    "net_size": 32,
+    "signal_width": 32,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "clk": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "current_state": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "next_state": {
+    "net_size": 2,
+    "signal_width": 2,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "pedestrian_light": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "pedestrian_request": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "reset": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "timer": {
+    "net_size": 5,
+    "signal_width": 5,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "traffic_light": {
+    "net_size": 3,
+    "signal_width": 3,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  }
+}

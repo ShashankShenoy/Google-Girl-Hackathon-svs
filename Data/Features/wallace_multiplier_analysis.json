@@ -1,0 +1,587 @@
+{
+  "creator": "Yosys 0.9 (git sha1 1979e0b)",
+  "modules": {
+    "Wallace_Tree_Multiplier_4bit": {
+      "attributes": {
+        "cells_not_processed": 1,
+        "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:1"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 6, 7, 8, 9 ]
+        },
+        "Product": {
+          "direction": "output",
+          "bits": [ 10, 11, 12, 13, 14, 15, 16, 17 ]
+        }
+      },
+      "cells": {
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:10$2": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:10"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 7 ],
+            "Y": [ 18 ]
+          }
+        },
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:11$3": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:11"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 8 ],
+            "Y": [ 19 ]
+          }
+        },
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:12$4": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 9 ],
+            "Y": [ 20 ]
+          }
+        },
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:13$5": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:13"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 6 ],
+            "Y": [ 21 ]
+          }
+        },
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:14$6": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:14"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 7 ],
+            "Y": [ 22 ]
+          }
+        },
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:15$7": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:15"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 8 ],
+            "Y": [ 23 ]
+          }
+        },
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:16$8": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:16"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 9 ],
+            "Y": [ 24 ]
+          }
+        },
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:17$9": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:17"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 6 ],
+            "Y": [ 25 ]
+          }
+        },
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:18$10": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:18"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 7 ],
+            "Y": [ 26 ]
+          }
+        },
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:19$11": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:19"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 8 ],
+            "Y": [ 27 ]
+          }
+        },
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:20$12": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:20"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 9 ],
+            "Y": [ 28 ]
+          }
+        },
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:21$13": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:21"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "B": [ 6 ],
+            "Y": [ 29 ]
+          }
+        },
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:22$14": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:22"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "B": [ 7 ],
+            "Y": [ 30 ]
+          }
+        },
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:23$15": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:23"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "B": [ 8 ],
+            "Y": [ 31 ]
+          }
+        },
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:24$16": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "B": [ 9 ],
+            "Y": [ 32 ]
+          }
+        },
+        "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:9$1": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:9"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 6 ],
+            "Y": [ 33 ]
+          }
+        },
+        "FA0": {
+          "hide_name": 0,
+          "type": "Full_Adder",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": 1,
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:32"
+          },
+          "connections": {
+            "A": [ 25 ],
+            "B": [ 29 ],
+            "Cin": [ 34 ],
+            "Cout": [ 35 ],
+            "Sum": [ 14 ]
+          }
+        },
+        "FA1": {
+          "hide_name": 0,
+          "type": "Full_Adder",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": 1,
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:33"
+          },
+          "connections": {
+            "A": [ 26 ],
+            "B": [ 30 ],
+            "Cin": [ 36 ],
+            "Cout": [ 37 ],
+            "Sum": [ 15 ]
+          }
+        },
+        "FA2": {
+          "hide_name": 0,
+          "type": "Full_Adder",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": 1,
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:34"
+          },
+          "connections": {
+            "A": [ 27 ],
+            "B": [ 31 ],
+            "Cin": [ 38 ],
+            "Cout": [ 39 ],
+            "Sum": [ 16 ]
+          }
+        },
+        "FA3": {
+          "hide_name": 0,
+          "type": "Full_Adder",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": 1,
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:35"
+          },
+          "connections": {
+            "A": [ 28 ],
+            "B": [ 32 ],
+            "Cin": [ 40 ],
+            "Cout": [ 41 ],
+            "Sum": [ 17 ]
+          }
+        },
+        "HA0": {
+          "hide_name": 0,
+          "type": "Half_Adder",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": 1,
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:28"
+          },
+          "connections": {
+            "A": [ 33 ],
+            "B": [ 21 ],
+            "Carry": [ 34 ],
+            "Sum": [ 10 ]
+          }
+        },
+        "HA1": {
+          "hide_name": 0,
+          "type": "Half_Adder",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": 1,
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:29"
+          },
+          "connections": {
+            "A": [ 18 ],
+            "B": [ 22 ],
+            "Carry": [ 36 ],
+            "Sum": [ 11 ]
+          }
+        },
+        "HA2": {
+          "hide_name": 0,
+          "type": "Half_Adder",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": 1,
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:30"
+          },
+          "connections": {
+            "A": [ 19 ],
+            "B": [ 23 ],
+            "Carry": [ 38 ],
+            "Sum": [ 12 ]
+          }
+        },
+        "HA3": {
+          "hide_name": 0,
+          "type": "Half_Adder",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": 1,
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:31"
+          },
+          "connections": {
+            "A": [ 20 ],
+            "B": [ 24 ],
+            "Carry": [ 40 ],
+            "Sum": [ 13 ]
+          }
+        }
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:2"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 6, 7, 8, 9 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:3"
+          }
+        },
+        "C1": {
+          "hide_name": 0,
+          "bits": [ 34, 36, 38, 40, 35, 37, 39, 41 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:27"
+          }
+        },
+        "P": {
+          "hide_name": 0,
+          "bits": [ 33, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:6"
+          }
+        },
+        "Product": {
+          "hide_name": 0,
+          "bits": [ 10, 11, 12, 13, 14, 15, 16, 17 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:4"
+          }
+        },
+        "S1": {
+          "hide_name": 0,
+          "bits": [ 10, 11, 12, 13, 14, 15, 16, 17 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/wallace_multiplier.v:27"
+          }
+        }
+      }
+    }
+  }
+}

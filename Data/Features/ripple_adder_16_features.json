@@ -1,0 +1,2226 @@
+{
+  "$techmap\\fa0.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\fa0.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\fa0.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\fa0.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\fa0.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\fa0.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\fa0.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[10].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[10].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[10].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[10].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[10].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[10].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[10].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[11].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[11].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[11].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[11].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[11].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[11].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[11].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[12].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[12].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[12].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[12].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[12].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[12].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[12].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[13].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[13].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[13].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[13].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[13].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[13].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[13].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[14].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[14].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[14].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[14].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[14].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[14].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[14].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[15].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[15].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[15].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[15].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[15].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[15].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[15].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[1].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[1].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[1].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[1].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[1].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[1].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[1].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[2].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[2].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[2].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[2].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[2].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[2].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[2].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[3].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[3].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[3].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[3].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[3].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[3].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[3].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[4].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[4].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[4].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[4].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[4].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[4].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[4].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[5].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[5].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[5].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[5].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[5].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[5].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[5].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[6].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[6].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[6].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[6].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[6].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[6].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[6].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[7].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[7].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[7].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[7].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[7].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[7].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[7].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[8].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[8].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[8].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[8].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[8].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[8].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[8].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[9].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[9].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[9].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6": {
+    "cell_type": "$and",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[9].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[9].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$7": {
+    "cell_type": "$or",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[9].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[9].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$2": {
+    "cell_type": "$xor",
+    "signal_width": 1,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\fa0.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\fa0.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\fa0.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\fa0.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\fa0.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[10].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[10].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[10].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[10].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[10].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[11].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[11].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[11].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[11].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[11].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[12].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[12].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[12].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[12].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[12].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[13].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[13].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[13].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[13].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[13].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[14].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[14].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[14].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[14].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[14].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[15].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[15].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[15].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[15].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[15].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[1].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[1].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[1].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[1].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[1].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[2].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[2].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[2].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[2].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[2].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[3].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[3].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[3].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[3].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[3].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[4].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[4].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[4].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[4].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[4].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[5].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[5].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[5].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[5].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[5].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[6].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[6].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[6].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[6].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[6].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[7].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[7].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[7].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[7].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[7].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[8].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[8].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[8].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[8].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[8].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[9].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$3_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[9].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$4_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[9].fa.$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$6_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[9].fa.$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:43$5_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$techmap\\gen_adders[9].fa.$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ripple_adder_16.v:42$1_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "a": {
+    "net_size": 16,
+    "signal_width": 16,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "b": {
+    "net_size": 16,
+    "signal_width": 16,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "carry": {
+    "net_size": 16,
+    "signal_width": 16,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "fa0.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "fa0.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "fa0.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "fa0.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "fa0.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[10].fa.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[10].fa.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[10].fa.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[10].fa.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[10].fa.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[11].fa.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[11].fa.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[11].fa.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[11].fa.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[11].fa.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[12].fa.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[12].fa.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[12].fa.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[12].fa.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[12].fa.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[13].fa.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[13].fa.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[13].fa.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[13].fa.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[13].fa.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[14].fa.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[14].fa.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[14].fa.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[14].fa.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[14].fa.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[15].fa.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[15].fa.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[15].fa.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[15].fa.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[15].fa.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[1].fa.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[1].fa.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[1].fa.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[1].fa.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[1].fa.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[2].fa.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[2].fa.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[2].fa.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[2].fa.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[2].fa.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[3].fa.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[3].fa.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[3].fa.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[3].fa.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[3].fa.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[4].fa.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[4].fa.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[4].fa.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[4].fa.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[4].fa.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[5].fa.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[5].fa.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[5].fa.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[5].fa.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[5].fa.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[6].fa.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[6].fa.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[6].fa.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[6].fa.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[6].fa.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[7].fa.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[7].fa.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[7].fa.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[7].fa.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[7].fa.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[8].fa.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[8].fa.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[8].fa.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[8].fa.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[8].fa.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[9].fa.a": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[9].fa.b": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[9].fa.cin": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[9].fa.cout": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "gen_adders[9].fa.sum": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "sum": {
+    "net_size": 16,
+    "signal_width": 16,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  }
+}

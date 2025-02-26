@@ -1,0 +1,322 @@
+{
+  "$add$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:10$2": {
+    "cell_type": "$add",
+    "signal_width": 8,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 1
+  },
+  "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:15$7": {
+    "cell_type": "$and",
+    "signal_width": 8,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$eq$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:20$12": {
+    "cell_type": "$logic_not",
+    "signal_width": 8,
+    "fan_in_count": 2,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$not$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:15$8": {
+    "cell_type": "$not",
+    "signal_width": 8,
+    "fan_in_count": 2,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$not$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:16$10": {
+    "cell_type": "$not",
+    "signal_width": 8,
+    "fan_in_count": 2,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:16$9": {
+    "cell_type": "$or",
+    "signal_width": 8,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$14": {
+    "cell_type": "$pmux",
+    "signal_width": 64,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$15_CMP0": {
+    "cell_type": "$eq",
+    "signal_width": 3,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$16_CMP0": {
+    "cell_type": "$eq",
+    "signal_width": 3,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$17_CMP0": {
+    "cell_type": "$eq",
+    "signal_width": 3,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$18_CMP0": {
+    "cell_type": "$eq",
+    "signal_width": 3,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$19_CMP0": {
+    "cell_type": "$eq",
+    "signal_width": 3,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$20_CMP0": {
+    "cell_type": "$eq",
+    "signal_width": 3,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$21_CMP0": {
+    "cell_type": "$eq",
+    "signal_width": 3,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$22_CMP0": {
+    "cell_type": "$logic_not",
+    "signal_width": 3,
+    "fan_in_count": 2,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$sub$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:11$3": {
+    "cell_type": "$sub",
+    "signal_width": 8,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 1
+  },
+  "$ternary$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:20$13": {
+    "cell_type": "$mux",
+    "signal_width": 32,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:14$6": {
+    "cell_type": "$xor",
+    "signal_width": 8,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$add$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:10$2_Y": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$and$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:12$4_Y": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$eq$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:20$12_Y": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$not$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:15$8_Y": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$not$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:16$10_Y": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:13$5_Y": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$15_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$16_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$17_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$18_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$19_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$20_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$21_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$22_CMP": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$sub$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:11$3_Y": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$ternary$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:20$13_Y": {
+    "net_size": 32,
+    "signal_width": 32,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$xor$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/alu8bit.v:14$6_Y": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "A": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "ALUControl": {
+    "net_size": 3,
+    "signal_width": 3,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "B": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "Result": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "Zero": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  }
+}

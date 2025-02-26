@@ -1,0 +1,170 @@
+{
+  "$memrd$\\memory$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_16x8.v:13$6": {
+    "cell_type": "$memrd",
+    "signal_width": 8,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$memwr$\\memory$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_16x8.v:12$7": {
+    "cell_type": "$memwr",
+    "signal_width": 8,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procdff$14": {
+    "cell_type": "$dff",
+    "signal_width": 4,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procdff$15": {
+    "cell_type": "$dff",
+    "signal_width": 8,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procdff$16": {
+    "cell_type": "$dff",
+    "signal_width": 8,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procdff$17": {
+    "cell_type": "$dff",
+    "signal_width": 8,
+    "fan_in_count": 3,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$10": {
+    "cell_type": "$mux",
+    "signal_width": 8,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$12": {
+    "cell_type": "$mux",
+    "signal_width": 4,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$procmux$8": {
+    "cell_type": "$mux",
+    "signal_width": 1,
+    "fan_in_count": 4,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$0$memwr$\\memory$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_16x8.v:12$1_ADDR[3:0]$3": {
+    "net_size": 4,
+    "signal_width": 4,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$0$memwr$\\memory$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_16x8.v:12$1_DATA[7:0]$4": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$0$memwr$\\memory$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_16x8.v:12$1_EN[7:0]$5": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$0\\data_out[7:0]": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$memwr$\\memory$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_16x8.v:12$1_ADDR": {
+    "net_size": 4,
+    "signal_width": 4,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$memwr$\\memory$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_16x8.v:12$1_DATA": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "$memwr$\\memory$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/ram_16x8.v:12$1_EN": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "address": {
+    "net_size": 4,
+    "signal_width": 4,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "clk": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "data_in": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "data_out": {
+    "net_size": 8,
+    "signal_width": 8,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  },
+  "write_enable": {
+    "net_size": 1,
+    "signal_width": 1,
+    "fan_in_count": 0,
+    "has_multiply": 0,
+    "has_divide": 0,
+    "has_add": 0
+  }
+}

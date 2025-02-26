@@ -1,0 +1,719 @@
+{
+  "creator": "Yosys 0.9 (git sha1 1979e0b)",
+  "modules": {
+    "vending_machine_fsm": {
+      "attributes": {
+        "cells_not_processed": 1,
+        "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:1"
+      },
+      "ports": {
+        "clk": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "reset": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "nickel": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "dime": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "quarter": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "dispense": {
+          "direction": "output",
+          "bits": [ 7 ]
+        },
+        "credit": {
+          "direction": "output",
+          "bits": [ 8, 9, 10, 11, 12, 13 ]
+        }
+      },
+      "cells": {
+        "$add$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:31$2": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 6,
+            "B_SIGNED": 0,
+            "B_WIDTH": 32,
+            "Y_WIDTH": 32
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:31"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 8, 9, 10, 11, 12, 13 ],
+            "B": [ "1", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "Y": [ 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45 ]
+          }
+        },
+        "$add$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:33$3": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 6,
+            "B_SIGNED": 0,
+            "B_WIDTH": 32,
+            "Y_WIDTH": 32
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:33"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 8, 9, 10, 11, 12, 13 ],
+            "B": [ "0", "1", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "Y": [ 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77 ]
+          }
+        },
+        "$add$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:35$4": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 6,
+            "B_SIGNED": 0,
+            "B_WIDTH": 32,
+            "Y_WIDTH": 32
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:35"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 8, 9, 10, 11, 12, 13 ],
+            "B": [ "1", "0", "0", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "Y": [ 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109 ]
+          }
+        },
+        "$ge$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:56$9": {
+          "hide_name": 1,
+          "type": "$ge",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 6,
+            "B_SIGNED": 0,
+            "B_WIDTH": 6,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 8, 9, 10, 11, 12, 13 ],
+            "B": [ "1", "0", "0", "1", "1", "0" ],
+            "Y": [ 110 ]
+          }
+        },
+        "$logic_or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:58$10": {
+          "hide_name": 1,
+          "type": "$logic_or",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:58"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 5 ],
+            "Y": [ 111 ]
+          }
+        },
+        "$logic_or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:58$11": {
+          "hide_name": 1,
+          "type": "$logic_or",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:58"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 111 ],
+            "B": [ 6 ],
+            "Y": [ 112 ]
+          }
+        },
+        "$procdff$56": {
+          "hide_name": 1,
+          "type": "$adff",
+          "parameters": {
+            "ARST_POLARITY": 1,
+            "ARST_VALUE": 0,
+            "CLK_POLARITY": 1,
+            "WIDTH": 6
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:15"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 113, 114, 115, 116, 117, 118 ],
+            "Q": [ 8, 9, 10, 11, 12, 13 ]
+          }
+        },
+        "$procdff$57": {
+          "hide_name": 1,
+          "type": "$adff",
+          "parameters": {
+            "ARST_POLARITY": 1,
+            "ARST_VALUE": 0,
+            "CLK_POLARITY": 1,
+            "WIDTH": 2
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:15"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 119, 120 ],
+            "Q": [ 121, 122 ]
+          }
+        },
+        "$procdff$58": {
+          "hide_name": 1,
+          "type": "$adff",
+          "parameters": {
+            "ARST_POLARITY": 1,
+            "ARST_VALUE": 0,
+            "CLK_POLARITY": 1,
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:15"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 123 ],
+            "Q": [ 7 ]
+          }
+        },
+        "$procmux$24": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 2
+          },
+          "attributes": {
+            "full_case": 1,
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "1", "0" ],
+            "B": [ "0", "1" ],
+            "S": [ 110 ],
+            "Y": [ 124, 125 ]
+          }
+        },
+        "$procmux$32": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 2
+          },
+          "attributes": {
+            "full_case": 1,
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0", "0" ],
+            "B": [ "1", "0" ],
+            "S": [ 112 ],
+            "Y": [ 126, 127 ]
+          }
+        },
+        "$procmux$38": {
+          "hide_name": 1,
+          "type": "$pmux",
+          "parameters": {
+            "S_WIDTH": 2,
+            "WIDTH": 2
+          },
+          "attributes": {
+            "full_case": 1,
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:55|/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0", "0" ],
+            "B": [ 124, 125, 126, 127 ],
+            "S": [ 128, 129 ],
+            "Y": [ 119, 120 ]
+          }
+        },
+        "$procmux$41": {
+          "hide_name": 1,
+          "type": "$pmux",
+          "parameters": {
+            "S_WIDTH": 2,
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:38|/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:23"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "B": [ "1", "0" ],
+            "S": [ 130, 129 ],
+            "Y": [ 123 ]
+          }
+        },
+        "$procmux$44": {
+          "hide_name": 1,
+          "type": "$pmux",
+          "parameters": {
+            "S_WIDTH": 3,
+            "WIDTH": 6
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:38|/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:23"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 8, 9, 10, 11, 12, 13 ],
+            "B": [ 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, "0", "0", "0", "0", "0", "0" ],
+            "S": [ 130, 128, 129 ],
+            "Y": [ 113, 114, 115, 116, 117, 118 ]
+          }
+        },
+        "$procmux$45_CMP0": {
+          "hide_name": 1,
+          "type": "$eq",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 2,
+            "B_SIGNED": 0,
+            "B_WIDTH": 2,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:38|/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:23"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 121, 122 ],
+            "B": [ "0", "1" ],
+            "Y": [ 130 ]
+          }
+        },
+        "$procmux$46": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 6
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:34"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 8, 9, 10, 11, 12, 13 ],
+            "B": [ 78, 79, 80, 81, 82, 83 ],
+            "S": [ 6 ],
+            "Y": [ 143, 144, 145, 146, 147, 148 ]
+          }
+        },
+        "$procmux$49": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 6
+          },
+          "attributes": {
+            "full_case": 1,
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 143, 144, 145, 146, 147, 148 ],
+            "B": [ 46, 47, 48, 49, 50, 51 ],
+            "S": [ 5 ],
+            "Y": [ 149, 150, 151, 152, 153, 154 ]
+          }
+        },
+        "$procmux$52": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 6
+          },
+          "attributes": {
+            "full_case": 1,
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 149, 150, 151, 152, 153, 154 ],
+            "B": [ 14, 15, 16, 17, 18, 19 ],
+            "S": [ 4 ],
+            "Y": [ 137, 138, 139, 140, 141, 142 ]
+          }
+        },
+        "$procmux$54_CMP0": {
+          "hide_name": 1,
+          "type": "$eq",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 2,
+            "B_SIGNED": 0,
+            "B_WIDTH": 2,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:29|/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:23"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 121, 122 ],
+            "B": [ "1", "0" ],
+            "Y": [ 128 ]
+          }
+        },
+        "$procmux$55_CMP0": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 2,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:24|/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:23"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 121, 122 ],
+            "Y": [ 129 ]
+          }
+        },
+        "$sub$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:40$5": {
+          "hide_name": 1,
+          "type": "$sub",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 6,
+            "B_SIGNED": 0,
+            "B_WIDTH": 6,
+            "Y_WIDTH": 6
+          },
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:40"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 8, 9, 10, 11, 12, 13 ],
+            "B": [ "1", "0", "0", "1", "1", "0" ],
+            "Y": [ 131, 132, 133, 134, 135, 136 ]
+          }
+        }
+      },
+      "netnames": {
+        "$0\\credit[5:0]": {
+          "hide_name": 1,
+          "bits": [ 113, 114, 115, 116, 117, 118 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:15"
+          }
+        },
+        "$0\\dispense[0:0]": {
+          "hide_name": 1,
+          "bits": [ 123 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:15"
+          }
+        },
+        "$2\\next_state[1:0]": {
+          "hide_name": 1,
+          "bits": [ 126, 127 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:46"
+          }
+        },
+        "$3\\next_state[1:0]": {
+          "hide_name": 1,
+          "bits": [ 124, 125 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:46"
+          }
+        },
+        "$add$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:31$2_Y": {
+          "hide_name": 1,
+          "bits": [ 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:31",
+            "unused_bits": "6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
+          }
+        },
+        "$add$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:33$3_Y": {
+          "hide_name": 1,
+          "bits": [ 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:33",
+            "unused_bits": "6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
+          }
+        },
+        "$add$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:35$4_Y": {
+          "hide_name": 1,
+          "bits": [ 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:35",
+            "unused_bits": "6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
+          }
+        },
+        "$ge$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:56$9_Y": {
+          "hide_name": 1,
+          "bits": [ 110 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:56"
+          }
+        },
+        "$logic_or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:49$7_Y": {
+          "hide_name": 1,
+          "bits": [ 111 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:49"
+          }
+        },
+        "$logic_or$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:49$8_Y": {
+          "hide_name": 1,
+          "bits": [ 112 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:49"
+          }
+        },
+        "$procmux$20_CMP": {
+          "hide_name": 1,
+          "bits": [ 128 ],
+          "attributes": {
+          }
+        },
+        "$procmux$35_CMP": {
+          "hide_name": 1,
+          "bits": [ 129 ],
+          "attributes": {
+          }
+        },
+        "$procmux$42_CMP": {
+          "hide_name": 1,
+          "bits": [ 130 ],
+          "attributes": {
+          }
+        },
+        "$procmux$46_Y": {
+          "hide_name": 1,
+          "bits": [ 143, 144, 145, 146, 147, 148 ],
+          "attributes": {
+          }
+        },
+        "$procmux$49_Y": {
+          "hide_name": 1,
+          "bits": [ 149, 150, 151, 152, 153, 154 ],
+          "attributes": {
+          }
+        },
+        "$procmux$52_Y": {
+          "hide_name": 1,
+          "bits": [ 137, 138, 139, 140, 141, 142 ],
+          "attributes": {
+          }
+        },
+        "$sub$/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:40$5_Y": {
+          "hide_name": 1,
+          "bits": [ 131, 132, 133, 134, 135, 136 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:40"
+          }
+        },
+        "clk": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:2"
+          }
+        },
+        "credit": {
+          "hide_name": 0,
+          "bits": [ 8, 9, 10, 11, 12, 13 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:8"
+          }
+        },
+        "dime": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:5"
+          }
+        },
+        "dispense": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:7"
+          }
+        },
+        "next_state": {
+          "hide_name": 0,
+          "bits": [ 119, 120 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:13"
+          }
+        },
+        "nickel": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:4"
+          }
+        },
+        "quarter": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:6"
+          }
+        },
+        "reset": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:3"
+          }
+        },
+        "state": {
+          "hide_name": 0,
+          "bits": [ 121, 122 ],
+          "attributes": {
+            "src": "/home/svs_06/Google-Girl-Hackathon/Data/RTL_Sources/vendmachine_fsm.v:13"
+          }
+        }
+      }
+    }
+  }
+}
