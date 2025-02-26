@@ -48,7 +48,7 @@ Once your virtual environment is activated, install the necessary Python depende
 ```bash
 pip install -r requirements.txt
 ```
-The (requirements.txt)[https://github.com/smritivs/Google-Girl-Hackathon/blob/main/requirements.txt] file includes a list of the Python packages and their versions required to run the project. Here's an example of what the file contains:
+The (requirements)[https://github.com/smritivs/Google-Girl-Hackathon/blob/main/requirements.txt] file includes a list of the Python packages and their versions required to run the project. Here's an example of what the file contains:
 
 
 
