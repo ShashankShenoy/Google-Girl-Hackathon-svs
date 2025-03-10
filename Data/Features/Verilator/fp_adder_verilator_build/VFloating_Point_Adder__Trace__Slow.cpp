@@ -1,0 +1,88 @@
+// Verilated -*- C++ -*-
+// DESCRIPTION: Verilator output: Tracing implementation internals
+#include "verilated_vcd_c.h"
+#include "VFloating_Point_Adder__Syms.h"
+
+
+//======================
+
+void VFloating_Point_Adder::trace(VerilatedVcdC* tfp, int, int) {
+    tfp->spTrace()->addInitCb(&traceInit, __VlSymsp);
+    traceRegister(tfp->spTrace());
+}
+
+void VFloating_Point_Adder::traceInit(void* userp, VerilatedVcd* tracep, uint32_t code) {
+    // Callback from tracep->open()
+    VFloating_Point_Adder__Syms* __restrict vlSymsp = static_cast<VFloating_Point_Adder__Syms*>(userp);
+    if (!Verilated::calcUnusedSigs()) {
+        VL_FATAL_MT(__FILE__, __LINE__, __FILE__,
+                        "Turning on wave traces requires Verilated::traceEverOn(true) call before time 0.");
+    }
+    vlSymsp->__Vm_baseCode = code;
+    tracep->module(vlSymsp->name());
+    tracep->scopeEscape(' ');
+    VFloating_Point_Adder::traceInitTop(vlSymsp, tracep);
+    tracep->scopeEscape('.');
+}
+
+//======================
+
+
+void VFloating_Point_Adder::traceInitTop(void* userp, VerilatedVcd* tracep) {
+    VFloating_Point_Adder__Syms* __restrict vlSymsp = static_cast<VFloating_Point_Adder__Syms*>(userp);
+    VFloating_Point_Adder* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    {
+        vlTOPp->traceInitSub0(userp, tracep);
+    }
+}
+
+void VFloating_Point_Adder::traceInitSub0(void* userp, VerilatedVcd* tracep) {
+    VFloating_Point_Adder__Syms* __restrict vlSymsp = static_cast<VFloating_Point_Adder__Syms*>(userp);
+    VFloating_Point_Adder* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    const int c = vlSymsp->__Vm_baseCode;
+    if (false && tracep && c) {}  // Prevent unused
+    // Body
+    {
+        tracep->declBus(c+1,"A", false,-1, 7,0);
+        tracep->declBus(c+2,"B", false,-1, 7,0);
+        tracep->declBus(c+3,"result", false,-1, 7,0);
+        tracep->declBus(c+1,"Floating_Point_Adder A", false,-1, 7,0);
+        tracep->declBus(c+2,"Floating_Point_Adder B", false,-1, 7,0);
+        tracep->declBus(c+3,"Floating_Point_Adder result", false,-1, 7,0);
+        tracep->declBus(c+4,"Floating_Point_Adder sum", false,-1, 7,0);
+    }
+}
+
+void VFloating_Point_Adder::traceRegister(VerilatedVcd* tracep) {
+    // Body
+    {
+        tracep->addFullCb(&traceFullTop0, __VlSymsp);
+        tracep->addChgCb(&traceChgTop0, __VlSymsp);
+        tracep->addCleanupCb(&traceCleanup, __VlSymsp);
+    }
+}
+
+void VFloating_Point_Adder::traceFullTop0(void* userp, VerilatedVcd* tracep) {
+    VFloating_Point_Adder__Syms* __restrict vlSymsp = static_cast<VFloating_Point_Adder__Syms*>(userp);
+    VFloating_Point_Adder* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    {
+        vlTOPp->traceFullSub0(userp, tracep);
+    }
+}
+
+void VFloating_Point_Adder::traceFullSub0(void* userp, VerilatedVcd* tracep) {
+    VFloating_Point_Adder__Syms* __restrict vlSymsp = static_cast<VFloating_Point_Adder__Syms*>(userp);
+    VFloating_Point_Adder* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    vluint32_t* const oldp = tracep->oldp(vlSymsp->__Vm_baseCode);
+    if (false && oldp) {}  // Prevent unused
+    // Body
+    {
+        tracep->fullCData(oldp+1,(vlTOPp->A),8);
+        tracep->fullCData(oldp+2,(vlTOPp->B),8);
+        tracep->fullCData(oldp+3,(vlTOPp->result),8);
+        tracep->fullCData(oldp+4,((0xffU & ((IData)(vlTOPp->A) 
+                                            + (IData)(vlTOPp->B)))),8);
+    }
+}
